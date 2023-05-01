@@ -100,11 +100,11 @@ PLAYLIST_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/5f895aa64a4563c14ed64.jpg"
+STATS_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
 
 TELEGRAM_AUDIO_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
 
-TELEGRAM_VIDEO_URL = "https://graph.org/file/5f895aa64a4563c14ed64.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/1bd16cfc3d29cbc8b1b78.jpg"
 
 STREAM_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
 
