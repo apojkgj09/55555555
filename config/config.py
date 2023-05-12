@@ -34,10 +34,10 @@ GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMus
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 CHANNEL = getenv(
-    "CHANNEL", "FH_KP"
+    "CHANNEL", "KB_HE"
 )  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/FH_KP"
+    "CHANNEL_SUDO", "https://t.me/KB_HE"
 )  # قناة السورس هيك https://t.me/M_O_D_Y_CH
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/KB_HE"
@@ -89,34 +89,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/44f4a8e45d34863661d0e.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/343e5269a0d64c31f60b1.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/f3b3146e9aa433085062a.jpg",
+    "https://graph.org/file/343e5269a0d64c31f60b1.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/35e6eebd266116eb258b8.jpg"
 
-GLOBAL_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/f99216afa7794c1cfe880.jpg"
 
-STATS_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+STATS_IMG_URL = "https://graph.org/file/a495d9428f83bbe7f31b4.jpg"
 
-TELEGRAM_AUDIO_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/f99216afa7794c1cfe880.jpg"
 
-TELEGRAM_VIDEO_URL = "https://graph.org/file/1bd16cfc3d29cbc8b1b78.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/a495d9428f83bbe7f31b4.jpg"
 
-STREAM_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+STREAM_IMG_URL = "https://graph.org/file/f99216afa7794c1cfe880.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/a495d9428f83bbe7f31b4.jpg"
 
-YOUTUBE_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/35e6eebd266116eb258b8.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/f99216afa7794c1cfe880.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/a495d9428f83bbe7f31b4.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/1c5f8d03afccf6abb013b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/35e6eebd266116eb258b8.jpg"
 
 
 def time_to_seconds(time):
