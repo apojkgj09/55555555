@@ -176,22 +176,23 @@ async def br(_, query: CallbackQuery):
 async def devmusic(_, query: CallbackQuery):
    await query.edit_message_caption(caption =f"""[ٓ» ᴡᴇʟᴄᴏᴍᴇ ᴛᴏ sᴏᴜʀᴄᴇ ʟɪɴᴅᴀ](https://t.me/FH_KP)\n\n[» ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴛᴇʟᴇɢʀᴀᴍ ʙᴏᴛs](https://t.me/FH_KP)\n\n[» sᴏᴜʀᴄᴇ ʟɪɴᴅᴀ](https://t.me/FH_KP)""",
        reply_markup=InlineKeyboardMarkup(
-          [
-               [
+        [
+            [
                     InlineKeyboardButton(
-                        "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁¹", url=f"https://t.me/FH_3B"),
-                    InlineKeyboardButton(
-                        "𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁²", url=f"https://t.me/Ooi_1i")
+                        "𝙙𝙚𝙫𝙚𝙡𝙤𝙥𝙚𝙧", url=f"https://t.me/FHK_M5"),
                 ],[
                     InlineKeyboardButton(
-                        "𝙲𝙷𝙰𝙽𝙽𝙴𝙻", url=f"https://t.me/FH_KP"),
+                        "𝙘𝙝𝙖𝙣𝙣𝙚𝙡 ¹", url=f"https://t.me/FH_KP"), 
+                    InlineKeyboardButton(
+                        "𝙘𝙝𝙖𝙣𝙣𝙚𝙡 ²", url=f"https://t.me/KB_HE"),
                 ],[
                     InlineKeyboardButton(
                         "رجـوع 🎶", callback_data=f"hmaya"),
-               ],
-          ]
-        ),
-    ) 
+            ]
+        ]
+         ),
+     )
+ 
 @app.on_callback_query(filters.regex("devmusic"))
 async def devmusic(_, query: CallbackQuery):
    await query.edit_message_caption(caption =f"""» اهلـين حبـي أليـك قائمة قنـوات بـوت ليندا**""",
