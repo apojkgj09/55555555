@@ -27,17 +27,17 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/its-star-boi/ShizukaXMusic",
+    "https://github.com/apojkgj09/000000",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/its-star-boi/ShizukaXMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/apojkgj09/000000")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 CHANNEL = getenv(
-    "CHANNEL", "KB_HE"
+    "CHANNEL", "FH_KP"
 )  # قناه الاشتراك الاجباري مثل هيك https://t.me/M_O_D_Y_CH
 CHANNEL_SUDO = getenv(
-    "CHANNEL_SUDO", "https://t.me/KB_HE"
+    "CHANNEL_SUDO", "https://t.me/FH_KP"
 )  # قناة السورس هيك https://t.me/M_O_D_Y_CH
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", "https://t.me/KB_HE"
